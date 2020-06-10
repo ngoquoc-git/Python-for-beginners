@@ -2,14 +2,6 @@
 
 #----------------------------------------
 
-#Variable types
-
-a = 0       #string or long
-b = 1.1     #float or complex
-c = "Name"  #string
-
-#----------------------------------------
-
 #Variable is used to store data values
 #Unlike other language, Python does not need developer to declare the variable types
 #Variable type can be flexibly changed depends on user input
@@ -53,7 +45,8 @@ a = b = c = 3
 
 #The "+" operator can be used to add one variable with another
 #The type of variables have to be the same
-#For example: string + string or integer + integer
+#For example: number + number and string + string
+#A number cannot combien with a string
 
 a = 3
 b = 2
