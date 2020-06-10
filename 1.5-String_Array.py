@@ -7,8 +7,8 @@
 string1 = "This is a string"
 
 print(string1[2])       #Access the 2nd element of array string1 
-print(string1[4:8])     #Access element 4th-8th of string1 from the beginning
-print(string1[-8:-4])   #Access element 4th-8th of string1 from the end
+print(string1[4:8])     #Access element 4th-7th of string1 from the beginning
+print(string1[-8:-4])   #Access element 5th-8th of string1 from the end
 
 #len() function is used to get the length of the string
 print(len(string1))
