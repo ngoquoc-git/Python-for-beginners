@@ -2,10 +2,16 @@
 
 #----------------------------------------
 
+#Variable types
+
+a = 0       #string or long
+b = 1.1     #float or complex
+c = "Name"  #string
+
+#----------------------------------------
+
 #Variable is used to store data values
-
 #Unlike other language, Python does not need developer to declare the variable types
-
 #Variable type can be flexibly changed depends on user input
 
 a = 5       #declare variable a as an integer 
@@ -31,8 +37,30 @@ FIRSTVAR = 0
 first1var = 0
 firstvar1 = 0
 
-#variable cannot contain hyphen, space and number at the beginning
+#Variable cannot contain hyphen, space and number at the beginning
 
 #first-var = 0
 #first var = 0
 #1firstvar = 0
+
+#----------------------------------------
+
+#Playing with Variable in Python
+
+#Multiple variable has the same value can be added in one line
+
+a = b = c = 3
+
+#The "+" operator can be used to add one variable with another
+#The type of variables have to be the same
+#For example: string + string or integer + integer
+
+a = 3
+b = 2
+c = a + b
+print (c)
+
+#The "+" operator can be used in "print" command
+
+b = 2
+print(a + b)

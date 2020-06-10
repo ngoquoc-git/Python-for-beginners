@@ -13,7 +13,6 @@ print("Hello World!")
 #----------------------------------------
 
 #The pound "#" sign at the beginning of every line indicates a comment command
-
 #The Ide will not read the comment line, these are notes for the programmers to read
 
 #THIS LINE IS A COMMENT AND WILL NOT BE READ
