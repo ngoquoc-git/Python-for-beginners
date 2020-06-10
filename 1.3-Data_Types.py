@@ -4,49 +4,49 @@
 
 #Variables in Python can store different data type
 
-#Text
+#Text Type
 a = "name"                  #str
 
-#Numeric
+#Numeric Types
 b = 1                       #int
 c = 2.2                     #float
 d = 1j                      #complex
 
-#Sequence
+#Sequence Types
 e = ["a", "b", "c"]         #list
 f = (1, 2, 3)               #tuple
 g = range(4)                #range
 
-#Mapping
+#Mapping Type
 h = {"val": 1,"add": 22}    #dict
 
-#Set
+#Set Types
 i = {"ab", "cd", "ef"}      #set
 g = frozenset({0, 1, 2})    #frozenset
 
-#Boolean
+#Boolean Type
 k = True                    #boolean
 
-#Binary
+#Binary Types
 l = b"Hello"                #bytes
 m = bytearray(4)            #bytearray
 n = memoryview(bytes(3))    #memoryview
 
 #Print values
-print (a)
-print (b)
-print (c)
-print (d)
-print (e)
-print (f)
-print (g)
-print (h)
-print (i)
-print (g)
-print (k)
-print (l)
-print (m)
-print (n)
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
+print(g)
+print(k)
+print(l)
+print(m)
+print(n)
 
 #Print date type
 print(type(a))
@@ -63,3 +63,17 @@ print(type(k))
 print(type(l))
 print(type(m))
 print(type(n))
+
+#----------------------------------------
+
+#Type Conversion
+
+#Data of the same type can be converted between each other
+x = float(b)
+y = int(c)
+
+print(x)
+print(type(x))
+
+print(y)
+print(type(y))
