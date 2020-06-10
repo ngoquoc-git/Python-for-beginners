@@ -16,3 +16,10 @@ print("Hello World!")
 #The Ide will not read the comment line, these are notes for the programmers to read
 
 #THIS LINE IS A COMMENT AND WILL NOT BE READ
+
+#You also can commment multiple line by using triple quatation marks
+"""
+Those lines are comments
+and will not be read
+by the compiler.
+"""

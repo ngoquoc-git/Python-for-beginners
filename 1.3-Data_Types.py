@@ -6,6 +6,10 @@
 
 #Text Type
 a = "name"                  #str
+#A multiline string is wrap in a triple quotation marks
+a1 = """This is an
+example of a 
+multiline string"""
 
 #Numeric Types
 b = 1                       #int
@@ -34,6 +38,7 @@ n = memoryview(bytes(3))    #memoryview
 
 #Print values
 print(a)
+print(a1)
 print(b)
 print(c)
 print(d)
@@ -50,6 +55,7 @@ print(n)
 
 #Print date type
 print(type(a))
+print(type(a1))
 print(type(b))
 print(type(c))
 print(type(d))
