@@ -50,3 +50,17 @@ print(string2.replace("b", "p"))
 #To split string
 print(string2.split(" "))   #" " is the instance separator
 
+#----------------------------------------
+
+#Special characters in Python
+
+#Code   Result
+print ("This is a \'Single Quote\' example")    #\'     Single Quote
+print ("This is a \\Backslash example")         #\\     Backslash
+print ("This is a \nNew Line example")          #\n     New Line
+print ("This is a \tCarriange example")         #\r     Carriange Return
+print ("This is a \tTab example")               #\t     Tab
+print ("This is a \bBack Space example")        #\b     Backspace
+print("\110\145\154\154\157")                   #\ooo   Octal Value
+print("\x48\x65\x6c\x6c\x6f")                   #\xhh   Hex Value
+print("\f")                                     #\f     Form Feed

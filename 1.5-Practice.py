@@ -10,8 +10,12 @@
 #Turn the string to upper case
 #Split the string into 3 parts day, month, and year
 
+#Question 2
+#Introducing youself using special characters in your introduction
+
 #----------------------------------------
 
+#Solution 1
 day = 10
 month = "June"
 year = 2020
@@ -21,3 +25,5 @@ print(today.format(day, month, year))
 print(len(today.format(day, month, year)))
 print(today.format(day, month, year).upper())
 print(today.format(day, month, year).split(" "))
+
+#Solution 2
