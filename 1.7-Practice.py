@@ -50,49 +50,49 @@ elif change == 0:
 else:
     change*=100                             #multiply by 100 to get rid of the two decimal places
     bills =  change // 100
-    coins = change % 100
+    coins = round(change % 100, 2)
     oneHundred = fifty = twenty = ten = five = two = one = quarters = dimes = nickles = pennies = 0
     
-    if bills > 100:                         #counting $100 bills
+    if bills >= 100:                         #counting $100 bills
         oneHundred = int(bills // 100)
         bills -= (oneHundred * 100)
     
-    if bills > 50:                          #counting $50 bills
+    if bills >= 50:                          #counting $50 bills
         fifty = int(bills // 50)
         bills -= (fifty * 50)
 
-    if bills > 20:                          #counting $20 bills    
+    if bills >= 20:                          #counting $20 bills    
         twenty = int(bills // 20)
         bills -= (twenty * 20)
     
-    if bills > 10:                          #counting $10 bills
+    if bills >= 10:                          #counting $10 bills
         ten = int(bills // 10)
         bills -= (ten *10)
     
-    if bills > 5:                           #counting $5 bills
+    if bills >= 5:                           #counting $5 bills
         five = int(bills // 5)
         bills -= (five * 5)
     
-    if bills > 2:                           #counting $2 bills
+    if bills >= 2:                           #counting $2 bills
         two = (bills // 2)
         bills -= (two * 2)
     
-    if bills > 1:                           #counting $1 bills
+    if bills >= 1:                           #counting $1 bills
         one = int(bills)
 
-    if coins > 25:                          #counting 25 cents
+    if coins >= 25:                          #counting 25 cents
         quarters = int(coins // 25)
         coins -= (quarters * 25)
     
-    if coins > 10:                          #counting 10 cents
+    if coins >= 10:                          #counting 10 cents
         dimes = int(coins // 10)
         coins -= (dimes * 10)
 
-    if coins > 5:                          #counting 5 cents
+    if coins >= 5:                          #counting 5 cents
         nickles = int(coins // 5)
         coins -= (nickles * 25)
 
-    if coins > 1:                          #counting 1 cent
+    if coins >= 1:                          #counting 1 cent
         pennies = int(coins)
 
     print ("\nYour change is $", (round(paid - fullPrice, 2)))
