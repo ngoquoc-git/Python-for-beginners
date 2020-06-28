@@ -41,3 +41,15 @@ elif age >= 18:
 
 else:
     print("child")
+
+#every IF need at least one <Result Statement>, you can use PASS in case you have an empty if statement to avoid error 
+#For example:
+
+if age > 24:
+    pass
+
+#----------------------------------------
+
+#Nested IF
+#One or more IF in an IF
+#The outer IF will be executed first then the inside
